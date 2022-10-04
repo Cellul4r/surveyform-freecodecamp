@@ -10,7 +10,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 3.3rem auto 0 auto
+    margin: 3.3rem 0 0 0;
 }
 h1,p {
     margin-top: 0;
