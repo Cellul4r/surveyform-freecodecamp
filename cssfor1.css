@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
-
+html, body {
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+    width: 100%;
+}
 body {
+    display: table-cell;
+    vertical-align: center;
     font-family: "Poppins", sans-serif;
     color: white;
     width: 100%;
     height: 100%;
-    margin: 0;
     background-image: linear-gradient(180deg, rgba(76, 76, 160, 0.8),rgba(131, 179, 233, 0.7)),url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 3.3rem auto;
+    margin: 3.3rem auto 0 auto;
 }
 h1,p {
     margin-top: 0;
@@ -26,7 +34,7 @@ p {
     font-size: 1.14rem;
 }
 form {
-    margin: 0 -7vw;
+    margin: 0 auto;
     width: 75vw;
     max-width: 650px;
     min-width: 490px;
@@ -58,6 +66,7 @@ input, select, button, textarea {
 
 #title, #description {
     padding: 0 0.5rem;
+    margin-top: 3.3rem;
     margin-bottom: 1.875rem;
 }
 
